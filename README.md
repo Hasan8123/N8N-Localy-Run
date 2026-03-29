@@ -7,9 +7,7 @@
 ```
 n PREREQUISITES: Windows / Mac / Linux + Internet connection + 5 minutes
 ```
-## 1
-
-## Install Node.js
+## 1.  Install Node.js
 
 ##### n8n runs on Node.js, so we need to install it first. This is a one-time setup.
 
@@ -41,9 +39,7 @@ v20.18.1 ← Any version 18+ is fine
 $ npm -v
 10.8.2 ← npm comes bundled with Node.js
 ```
-### 2
-
-## Install n8n
+### 2.  Install n8n
 
 ##### One command is all it takes. This installs n8n globally on your system.
 
@@ -59,14 +55,12 @@ i → Short for 'install'
 n8n → The package we're installing
 -g → Install globally (so you can use it from anywhere)
 ```
-##### Wait for the installation to finish. It may take 1-2 minutes depending on your internet speed.
+##### Wait for the installation to finish. It may take 1-2 minutes, depending on your internet speed.
 
 ```
 n ERROR? If you get a permission error on Mac/Linux, run: sudo npm i n8n -g
 ```
-### 3
-
-## Start n8n
+### 3.  Start n8n
 
 
 ##### Launch n8n for the first time. It will set up everything automatically.
@@ -77,7 +71,7 @@ n ERROR? If you get a permission error on Mac/Linux, run: sudo npm i n8n -g
 
 ##### This takes a minute the first time. Once it's ready, you'll see a message with a URL.
 
-##### n What you should see in terminal:
+##### n What you should see in the terminal:
 
 ```
 Editor is now accessible via:
@@ -91,12 +85,10 @@ Press 'o' to open in browser
 ##### You'll see the n8n signup screen. Create your account — this is local, only on your machine.
 
 ```
-n NOTE: n8n has no desktop icon. You always start it via terminal command and open it in
+n NOTE: n8n has no desktop icon. You always start it via a terminal command and open it in
 your browser.
 ```
-### 4
-
-## Unlock Paid Features (Free!)
+### 4.  Unlock Paid Features (Free!)
 
 ##### n8n offers a free community license that unlocks paid features like execution history, debug mode,
 
@@ -108,12 +100,12 @@ your browser.
 1. Inside n8n, go to Settings (bottom-left gear icon)
 2. Click on Community or License
 3. Enter your email address
-4. Click 'Send Me' button
+4. Click the 'Send Me' button
 5. Check your email — you'll receive a license key
 
 ##### If you get an activation error, run this in your terminal:
 
-##### n8n license:activate YOUR_LICENSE_KEY
+##### n8n license: activate YOUR_LICENSE_KEY
 
 ##### Then restart n8n:
 
@@ -134,7 +126,7 @@ Install n8n npm i n8n -g
 Start n8n n8n start
 ```
 ```
-Open n8n in browser localhost:
+Open n8n in the browser at localhost:
 ```
 ```
 Update n8n npm update n8n -g
