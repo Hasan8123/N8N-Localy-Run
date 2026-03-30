@@ -26,7 +26,9 @@ n TIP: Always pick the LTS version, not Current. LTS is stable and tested.
 
 ##### Open Command Prompt (Windows) or Terminal (Mac/Linux) and type:
 
-##### node -v
+```
+ node -v
+```
 
 ##### If you see a version number like v20.x.x — Node.js is installed successfully.
 
@@ -45,7 +47,9 @@ $ npm -v
 
 ##### Open Command Prompt / PowerShell / Terminal and run:
 
-##### npm i n8n -g
+```
+ npm i n8n -g
+```
 
 ##### n Breaking it down:
 
@@ -67,7 +71,9 @@ n ERROR? If you get a permission error on Mac/Linux, run: sudo npm i n8n -g
 
 ##### In the same terminal, run:
 
-##### n8n start
+```
+ n8n start
+```
 
 ##### This takes a minute the first time. Once it's ready, you'll see a message with a URL.
 
@@ -105,11 +111,15 @@ your browser.
 
 ##### If you get an activation error, run this in your terminal:
 
-##### n8n license: activate YOUR_LICENSE_KEY
+```
+ n8n license: activate YOUR_LICENSE_KEY
+```
 
 ##### Then restart n8n:
 
-##### n8n start
+```
+ n8n start
+```
 
 ```
 n DONE! Paid features are now unlocked. You get execution history, debug mode, and
