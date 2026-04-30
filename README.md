@@ -129,26 +129,33 @@ more — all free.
 
 ###### ACTION COMMAND
 
+##### Install n8n
 ```
-Install n8n npm i n8n -g
+ npm i n8n -g
 ```
+##### Start n8n
 ```
-Start n8n n8n start
+ n8n start
 ```
+##### Open n8n in the browser at localhost:
 ```
-Open n8n in the browser at localhost:
+Press "o" (in terminal)
 ```
+##### Update n8n 
 ```
-Update n8n npm update n8n -g
+npm update n8n -g
 ```
+##### Check Node version
 ```
-Check Node version node -v
+ node -v
 ```
+##### Stop n8n 
+```
+Ctrl + C (in terminal)
+```
+
 ```
 Activate license n8n license:activate KEY
-```
-```
-Stop n8n Ctrl + C (in terminal)
 ```
 
 ## Troubleshooting
